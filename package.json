@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "lint-staged": {
     "*.js": [
@@ -21,6 +21,7 @@
   "license": "ISC",
   "devDependencies": {
     "husky": "^4.0.0-beta.5",
+    "jest": "^24.9.0",
     "lint-staged": "^9.4.3",
     "standard": "^14.3.1"
   }
