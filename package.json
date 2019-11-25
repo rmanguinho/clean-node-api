@@ -10,6 +10,14 @@
   "standard": {
     "env": ["jest"]
   },
+  "keywords": [
+    "node",
+    "mongodb",
+    "jest",
+    "tdd",
+    "clean architecture",
+    "design patterns"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
