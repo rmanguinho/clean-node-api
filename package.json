@@ -5,14 +5,6 @@
   "author": "Rodrigo Manguinho",
   "license": "ISC",
   "main": "index.js",
-  "keywords": [
-    "node",
-    "mongodb",
-    "jest",
-    "tdd",
-    "clean architecture",
-    "design patterns"
-  ],
   "scripts": {
     "test": "jest --watchAll",
     "test:staged": "jest"
