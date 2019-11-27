@@ -6,9 +6,10 @@
   "license": "ISC",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch --silent --colors --noStackTrace",
-    "test:staged": "jest --passWithNoTests --findRelatedTests --silent --noStackTrace",
-    "test:ci": "jest --coverage --noStackTrace --silent"
+    "test": "jest --silent --colors --noStackTrace --passWithNoTests",
+    "test:unit": "npm test -- --watch",
+    "test:staged": "npm test -- --findRelatedTests",
+    "test:ci": "npm test -- --coverage"
   },
   "standard": {
     "env": ["jest"]
