@@ -4,8 +4,9 @@
   "description": "Construindo uma API Rest em NodeJS utilizando TDD, Clean Architecture e Design Patterns.",
   "author": "Rodrigo Manguinho",
   "license": "ISC",
-  "main": "index.js",
+  "main": "src/main/index.js",
   "scripts": {
+    "start": "node src/main/index.js",
     "test": "jest --colors --noStackTrace --passWithNoTests",
     "test:unit": "npm test -- --watch -c jest-unit-config.js",
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
@@ -26,6 +27,7 @@
   },
   "dependencies": {
     "bcrypt": "^3.0.7",
+    "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.3.5",
     "validator": "^12.1.0"
