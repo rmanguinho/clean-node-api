@@ -13,6 +13,6 @@ module.exports = class TokenGenerator {
     if (!id) {
       throw new MissingParamError('id')
     }
-    return jwt.sign(id, this.secret)
+    return jwt.sign({ _id: id }, this.secret)
   }
 }
