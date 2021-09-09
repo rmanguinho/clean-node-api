@@ -8,3 +8,10 @@
 * Design Patterns
 
 > ### [Link para o curso completo no Youtube](https://www.youtube.com/playlist?list=PL9aKtVrF05DyEwK5kdvzrYXFdpZfj1dsG)
+<br />
+
+## Contribua com esse Projeto <3
+---
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M265FO6)
+
+<br />
